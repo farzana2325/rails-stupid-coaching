@@ -1,0 +1,14 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <h1 class="mb-4">Coach's answer</h1>
+      <div class="alert alert-secondary">
+        <strong>Your question:</strong> <%= @question %>
+      </div>
+      <div class="alert alert-success">
+        <strong>Coach's answer:</strong> <%= @answer %>
+      </div>
+      <%= link_to "Ask another question", "/ask", class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
